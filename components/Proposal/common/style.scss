@@ -1,0 +1,127 @@
+@import "../../../../../styles/config";
+
+// HideItemGroup
+.hide-item-group {
+}
+
+// HideItem
+.hide-item {
+  .item-title {
+    width: 100%;
+    height: j(110px);
+    line-height: j(110px);
+    border-top: j(3px) solid #f5f5f5;
+    border-bottom: j(7px) solid #f5f5f5;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding: j(10px) j(20px);
+    .item-i {
+      font-size: j(70px);
+      margin-left: j(10px);
+      color: $color-major;
+    }
+    .item-icon {
+      margin: j(16px) j(16px) j(16px) j(32px);
+    }
+    .item-desc {
+      font-size: 130%;
+      color: #666;
+      margin: 0 j(20px);
+      flex-grow: 1;
+      -webkit-flex-grow: 1;
+    }
+    .arrow {
+      width: j(80px);
+      height: 100%;
+      float: right;
+      margin-right: j(36px);
+      &.expansion {
+        width: j(80px);
+        height: 100%;
+        background: url('assets/expansion.png') right 0 center no-repeat;
+        background-size: j(48px);
+        float: right;
+        margin-right: j(36px);
+      }
+      &.closure {
+        width: j(80px);
+        height: 100%;
+        background: url('assets/closure.png') right 0 center no-repeat;
+        background-size: j(24px);
+        float: right;
+        margin-right: j(36px);
+      }
+    }
+  }
+  .item-content {
+    margin: 0 auto;
+    padding: j(20px) j(50px);
+    font-size: 120%;
+    color: #666;
+    border-bottom: j(7px) solid #f5f5f5;
+  }
+}
+
+// CheckList
+.check-list {
+  .item {
+    font-size: 120%;
+    line-height: j(48px);
+    display: flex;
+    display: -webkit-flex;
+    .label {
+      width: j(250px);
+    }
+    .value {
+    }
+  }
+}
+
+// Table
+.first-year-list {
+  .first-year-table {
+    line-height: j(36px);
+    tbody {
+      th {
+        color: #bdbdbd;
+        padding-top: j(16px);
+        padding-bottom: j(16px);
+      }
+    }
+  }
+  .sum {
+    padding-top: j(16px);
+    text-align: right;
+    color: #666;
+    .sum-title {
+      font-size: 120%;
+    }
+    .redcolor {
+      color: #d54343;
+    }
+    .sum-amount {
+      font-size: 120%;
+    }
+  }
+}
+
+// Tip
+.clause-list-main {
+  width: 100%;
+  height: calc(100% - 85px);
+  text-align: center;
+  .clause-item {
+    margin: j(16px);
+    height: j(70px);
+    background: #fbf9fa;
+    border-radius: j(10px);
+    line-height: j(70px);
+    text-indent: j(16px);
+    font-size: 130%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+}

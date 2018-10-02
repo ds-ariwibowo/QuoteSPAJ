@@ -1,0 +1,11 @@
+export const RECEIVE_PLAN_INITIAL_DATA = 'quote/RECEIVE_PLAN_INITIAL_DATA';
+export const SET_PLAN = 'quote/SET_PLAN';
+export const RECEIVE_RIDERS_LIST = 'quote/RECEIVE_RIDERS_LIST';
+export const RECEIVE_CALC_PREMIUM = 'quote/RECEIVE_CALC_PREMIUM';
+export const RECEIVE_SAVE_PLAN = 'quote/RECEIVE_SAVE_PLAN';
+export const RECEIVE_CUSTOMERS = 'quote/RECEIVE_CUSTOMERS';
+export const SET_PROPOSAL = 'quote/SET_PROPOSAL';
+export const RESET_PAGE = 'quote/RESET_PAGE';
+export const SET_PRODUCER = 'quote/SET_PRODUCER'
+export const RECEIVE_SAVE_PROPOSAL = 'quote/RECEIVE_SAVE_PROPOSAL';
+export const RECEIVE_PLAN_ILLUSTRATION = 'quote/RECEIVE_PLAN_ILLUSTRATION';

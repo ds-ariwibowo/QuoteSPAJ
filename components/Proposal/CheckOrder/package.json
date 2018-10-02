@@ -1,0 +1,6 @@
+{
+  "name": "CheckOrder",
+  "version": "1.0.0",
+  "description": "CheckOrder",
+  "main": "./CheckOrder.jsx"
+}
